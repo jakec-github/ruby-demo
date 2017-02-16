@@ -1,3 +1,109 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #F1EAD7;
+}
+
+.banner {
+  background-color: #555555;//#0D4F21;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+  border-radius: 25px;
+  width: 85%;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 95px;
+}
+
+.nav {
+  display: inline-block;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  max-height: 30px;
+  margin: 32px 25px 20px 25px;
+  a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2px;
+    &:hover {
+      border-bottom: 2px solid white;
+    }
+  }
+}
+
+.header {
+  color: white;
+  min-height: 120px;
+  text-align: center;
+  h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 60px;
+    margin-top: 15px;
+    font-weight: 700;
+    margin-left: 75px;
+  }
+  .nav_wrapper {
+    margin-right: 45px;
+  }
+  .col-sm-4 {
+    text-align: left;
+  }
+  .col-sm-8 {
+    text-align: right;
+  }
+}
+
+.home {
+  text-align: center;
+  color: #444444;
+  font-family: 'Cairo', sans-serif;
+  img {
+    height: 500px;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 60px;
+  }
+}
+
+.secondary {
+  text-align: center;
+  color: #444444;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 25px;
+  img {
+    width: 450px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+    margin-top: 65px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+.footer {
+  color: white;
+  .banner {
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+  }
+  .nav {
+    margin-bottom: 40px;
+  }
+}
