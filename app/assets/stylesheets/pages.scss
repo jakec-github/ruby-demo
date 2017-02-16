@@ -15,7 +15,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   min-height: 95px;
-  opacity: 0.9;
+  opacity: 0.8;
+  border: 3px solid #666666;
 }
 
 .nav {
@@ -40,10 +41,11 @@ body {
   min-height: 120px;
   text-align: center;
   h2 {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 8px;
     font-size: 60px;
     margin-top: 15px;
-    font-weight: 700;
+    font-weight: 500;
     margin-left: 75px;
   }
   .nav_wrapper {
@@ -106,5 +108,75 @@ body {
   }
   .nav {
     margin-bottom: 40px;
+  }
+}
+
+.projects {
+  text-align: center;
+  color: #444444;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 20px;
+  h1 {
+    font-size: 65px;
+    margin-bottom: 25px;
+    text-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+  }
+  p {
+    font-size: 20px;
+    max-width: 66%;
+    margin: auto;
+  }
+}
+
+.project-link {
+  background-color: #871309;
+  opacity: 0.9;
+  box-shadow: inset 0 5px 8px 0 rgba(0,0,0,0.5);
+  margin-top: 25px;
+  min-height: 340px;
+  .col-sm-4 {
+    text-align: center;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    margin: 20px 10px 20px 10px;
+    border: 3px solid #333333;
+    border-radius: 2px;
+  }
+  h3 {
+    font-family: 'Times New Roman', serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: white;
+    margin-top: -230px;
+  }
+  #separator {
+    height: 220px;
+    width: 5px;
+    background-color: #F1EAD7;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 1px;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+  }
+  p {
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 45px;
+  }
+}
+
+.contacts {
+  text-align: center;
+  color: #444444;
+  font-family: 'Cairo', sans-serif;
+  margin-top: 20px;
+  h1 {
+    font-size: 65px;
+    margin-bottom: 25px;
+    text-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
   }
 }
