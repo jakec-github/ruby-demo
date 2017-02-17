@@ -4,7 +4,7 @@
     <title>LHN Construction</title>
     <%= csrf_meta_tags %>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-      <link href="https://fonts.googleapis.com/css?family=Cairo:300,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Cairo:300,600" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -27,15 +27,12 @@
       </div>
     </div>
     <div class="header2">
-      
+
     </div>
     <%= yield %>
     <div class="footer">
-      <div class="container">
-        <div class="banner">
-          <span class="nav"><%= link_to "Home", root_path %></span>
-          <span class="nav"><%= link_to "Projects", projects_path %></span>
-          <span class="nav"><%= link_to "Contact", contacts_path %></span>
+      <div class="background">
+        <div class="container">
           <p>
             Add extra details here
           </p>
