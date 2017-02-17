@@ -12,21 +12,22 @@
   <body>
     <div class="header">
       <div class="container">
-        <div class="banner">
-          <div class="row">
-            <div class="col-sm-4">
-              <h2>LHN</h2>
-            </div>
-            <div class="col-sm-8">
-              <div class="nav_wrapper">
-                <span class="nav"><%= link_to "Home", root_path %></span>
-                <span class="nav"><%= link_to "Projects", projects_path %></span>
-                <span class="nav"><%= link_to "Contact", contacts_path %></span>
-              </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <h2>LHN</h2>
+          </div>
+          <div class="col-sm-8">
+            <div class="nav_wrapper">
+              <span class="nav"><%= link_to "Home", root_path %></span>
+              <span class="nav"><%= link_to "Projects", projects_path %></span>
+              <span class="nav"><%= link_to "Contact", contacts_path %></span>
             </div>
           </div>
         </div>
       </div>
+    </div>
+    <div class="header2">
+      
     </div>
     <%= yield %>
     <div class="footer">
