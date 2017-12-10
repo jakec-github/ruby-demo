@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
 
-Things you may want to cover:
+This project is a ruby demonstration that takes the form of a website for a construction company
 
-* Ruby version
+## Installation
 
-* System dependencies
+To view this project:
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Clone this project onto your own machine
+2. Make sure you have Ruby, Rails and all the necessary gems installed
+3. Use `rails server` to start a server running on localhost:3000
